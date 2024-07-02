@@ -4,24 +4,11 @@ import org.junit.Test;
 
 import java.util.Random;
 
+import static com.linjh.util.MethodTool.unSortArrays;
+
 public class test1 {
 
 
-    /**
-     *@author: junhang
-     *@createtime: 2024/6/29 16:00
-     *@description: 生成长度为1000的数组
-     *
-     **/
-    public static int[] unSortArrays(int size, int min, int max) {
-        Random random = new Random();
-        int[] array = new int[size];
-
-        for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt((max - min) + 1) + min;
-        }
-        return array;
-    }
 
     /**
      *@author: junhang
