@@ -92,7 +92,7 @@ public class test1 {
     /**
      *@author: junhang
      *@createtime: 2024/6/29 21:45
-     *@description: 选择拍寻
+     *@description: 选择排序
      **/
     @Test
     public void SelectSort() {

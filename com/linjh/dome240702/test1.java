@@ -4,6 +4,12 @@ import org.junit.Test;
 
 public class test1 {
 
+    int test;
+
+    public int testIntJudge() {
+        return this.test;
+    }
+
     @Test
     public void resultTest(){
         String test = "III";

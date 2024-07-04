@@ -49,10 +49,8 @@ public class test1 {
 
         for (int j = low; j < high; j++) {
             if (array[j] < pivot) {
-
                 i++;
                 array[i] = array[j] + array[i] - (array[j] = array[i]);
-
             }
         }
 
